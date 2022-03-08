@@ -1,11 +1,88 @@
 header {
-        color:rgb(rgb(141, 7, 7), green, blue)
+        color:rgb(rgb(141, 7, 7), green, blue);
+        text-align:center;
+        background-color: rgb(1, 15, 15);
+        border-radius: 5px
 }
 
-nav{
-    color: #5e606f
+body{
+    background-image: url(background\ pagina.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
+
 
 h3{
     color: rgb(rgb(88, 34, 34), green, blue)
 }
+
+nav>a{
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #501010;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+table, td, th{
+    color: aliceblue;
+    overflow: auto;
+    border: 2px rgb(138, 26, 26) solid;
+            margin: 10px;
+            padding: 5px;
+            font-size: 10px;
+            font-family: arial;
+            width: 50%;
+            height: 100px;
+}
+main {
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+/* 
+#contenedor>header: selector del header que sea hijo directo del id contenedor.
+Para evitar confusión con el header que es hijo de section (ver más abajo).     
+*/
+
+main>header {
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    width: 60%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 600px;
+    float: left;
+    overflow:visible;
+}
+
+aside{
+    border: 2px white;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+
