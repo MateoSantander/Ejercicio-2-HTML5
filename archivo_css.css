@@ -6,10 +6,8 @@ header {
 }
 
 body{
-    background-image: url(background\ pagina.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+    background-image: url(background\ pagina\ minimizada.jpg);
+    background-repeat: repeat;
 }
 
 
