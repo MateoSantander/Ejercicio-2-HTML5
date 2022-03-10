@@ -1,12 +1,12 @@
-header {
-        color:rgb(rgb(141, 7, 7), green, blue);
+header>h1 {
+        color:rgb(rgb(255, 255, 255), green, blue);
         text-align:center;
-        background-color: rgb(1, 15, 15);
-        border-radius: 5px
+        border-radius: 5px;
+        background-color:rgb(77, 11, 11)
 }
 
 body{
-    background-image: url(background\ pagina\ minimizada.jpg);
+    background-image: url(img/background\ pagina\ minimizada.jpg);
     background-repeat: repeat;
 }
 
@@ -16,12 +16,16 @@ h3{
 }
 
 nav>a{
+    margin-top: 50px;
     border-radius: 5px;
     padding: 8px;
     background-color: #501010;
     display: inline-block;
     text-decoration: none;
     color: aliceblue;
+}
+article{
+    margin-top: 70px;
 }
 
 table, td, th{
@@ -34,6 +38,7 @@ table, td, th{
             font-family: arial;
             width: 50%;
             height: 100px;
+            background-color: black;
 }
 main {
     color: aliceblue;
@@ -42,13 +47,7 @@ main {
     width: 1200px;
     margin-bottom: 10px;
     padding: 10px;
-    overflow: auto;
 }
-
-/* 
-#contenedor>header: selector del header que sea hijo directo del id contenedor.
-Para evitar confusión con el header que es hijo de section (ver más abajo).     
-*/
 
 main>header {
     color: aliceblue;
