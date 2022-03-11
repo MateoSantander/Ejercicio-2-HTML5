@@ -82,20 +82,3 @@ aside{
     display: flex;
 }
 
-@media screen and (max-width: 1200px){
-    section{
-        width:70%;
-    }
-    aside{
-        width: 100px;
-    }
-}
-
-@media screen and (min-width: 700px), (orientation: landscape) {
-    section{
-        width: 85%;
-    }
-    aside{
-        width: 15%;
-    }
- }
